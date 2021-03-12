@@ -5,11 +5,16 @@
 	<title>Сайт без пасхалки - Главная страница</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
 	
-	<link rel="stylesheet" href="1812.css" type="text/css" media="all"/>
+	<link rel="stylesheet" href="css/1812.css" type="text/css" media="all"/>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <script src="js/bootstrap.js"></script>
 
 	<script src="https://poskhalka.ucoz.net/.s/src/jquery-1.12.4.min.js"></script>
 	
 	<style type="text/css">.UhideBlock{display:none; }
+    <style>
+    main {}
+    a { text-decoration: none;}
 </style>
 </head>
 <body class="index">
@@ -20,10 +25,11 @@
 		<div class="logo"><a class="logo-lnk" title="Главная">Сайт без пасхалки</a></div>
 		<div class="main-menu">
 			<nav id="catmenu">
-				<!-- <sblock_nmenu> -->
+                
+				<!-- Менюшка справа -->
 <!-- <bc> --><div id="uNMenuDiv1" class="uMenuV"><ul class="uMenuRoot">
 <li><a class=" uMenuItemA" href="index.html" ><span>Главная</span></a></li>
-<li><a  href="load.html" ><span>Файлы</span></a></li></ul></div><!-- </bc> -->
+<li><a  href="load.html" ><span></span></a></li></ul></div><!-- </bc> -->
 <!-- </sblock_nmenu> -->
 				<div class="clr"></div>
 			</nav>
@@ -38,7 +44,7 @@
  <div class="left-itm">
  <h2>Ну привет</h2>
  <p>Это просто сайт, на котором ничего нет</p>
- <a href="#" class="link-button">Не нажимать</a>
+ <a><button type="button" class="link-button" data-bs-toggle="modal" data-bs-target="#exampleModal">Не нажимать</button></a>
  </div>
  <div class="right-itm">
  <img class="first-img" src="pic/gimp.png" alt="Больше в гимпе сидеть надо">
@@ -48,7 +54,7 @@
  <div class="left-itm">
  <h2>Ну пока</h2>
  <p>Это не сайт, но тут что-то есть</p>
- <a href="#" class="link-button">Жми</a>
+ <a href="" class="link-button">Жми</a>
  </div>
  <div class="right-itm">
  <img src="pic/blend.png" alt="Больше в блендере сидеть надо">
@@ -56,6 +62,32 @@
  </div>
  </div>
 
+    <!-- Модал -->
+ 
+ <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+ <div class="modal-dialog modal-dialog-centered">
+ <div class="modal-content">
+ <div class="modal-header">
+ <h5 class="modal-title" id="exampleModalLabel">Я же сказал не нажимать, один раз прощяю</h5>
+ <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+ </div>
+ <div class="modal-body">
+ <div class="position-absolute top-50 start-50 translate-middle">
+ <div>
+
+ <a><button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Дешевка</button></a>
+ 
+ <a><button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#staticBackdrop2">Шавка</button></a> 
+
+ <a><button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal2">Шваль</button></a> 
+ </div>
+ </div>
+ </div>
+ <div class="modal-footer"></div>
+ </div>
+ </div>
+ </div>
+    
 <!--Второй блок-->
  <div class="land-block1">
  <div class="wrapper flex-wrapper">
