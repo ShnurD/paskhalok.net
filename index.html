@@ -19,14 +19,12 @@
 </head>
 <body class="index">
 
-<!--Шапка-->
 <header>
 	<div class="wrapper">
 		<div class="logo"><a class="logo-lnk" title="Главная">Сайт без пасхалки</a></div>
 		<div class="main-menu">
 			<nav id="catmenu">
                 
-				<!-- Менюшка справа -->
 <!-- <bc> --><div id="uNMenuDiv1" class="uMenuV"><ul class="uMenuRoot">
 <li><a class=" uMenuItemA" href="index.html" ><span>Главная</span></a></li>
 <li><a  href="load.html" ><span></span></a></li></ul></div><!-- </bc> -->
@@ -50,11 +48,12 @@
  <img class="first-img" src="pic/gimp.png" alt="Больше в гимпе сидеть надо">
  </div>
  </div>
+
  <div class="item">
  <div class="left-itm">
  <h2>Ну пока</h2>
  <p>Это не сайт, но тут что-то есть</p>
- <a href="" class="link-button">Жми</a>
+ <a><button type="button" class="link-button" data-bs-toggle="modal" data-bs-target="#exampleModal1">Жми</button></a>
  </div>
  <div class="right-itm">
  <img src="pic/blend.png" alt="Больше в блендере сидеть надо">
@@ -62,13 +61,30 @@
  </div>
  </div>
 
+    
+<!-- ещё модал Dan-->
+<div oncopy="return false" class="modal fade" id="exampleModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+ <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-dialog modal-lg">
+ <div class="modal-content">
+ <div class="modal-header">
+ <h5 class="modal-title" id="staticBackdropLabel"><font size="+1">Я для кого написал</font><font color="red"> "Не нажимать"</font>?</h5>
+ </div>
+ <div class="modal-body">
+ <a><b>Ну вот теперь сиди думай</b></a>
+ </div>
+ <div class="modal-footer">
+ </div>
+ </div>
+ </div>
+</div>
+
     <!-- Модал -->
  
- <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+ <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
  <div class="modal-dialog modal-dialog-centered">
  <div class="modal-content">
  <div class="modal-header">
- <h5 class="modal-title" id="exampleModalLabel">Я же сказал не нажимать, один раз прощяю</h5>
+ <h5 class="modal-title" id="exampleModalLabel">Я тебя предупреждал....</h5>
  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
  </div>
  <div class="modal-body">
