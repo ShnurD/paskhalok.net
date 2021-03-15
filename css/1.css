@@ -1087,9 +1087,8 @@ table.shop_spec td,table.shop_spec td .item-action{display:block;text-align:left
 .cMessage>a:first-child{padding:0!important}
 .codeMessage,.forumIcoTd,.forumLastPostTd,.forumNameTd,.forumPostTd,.forumThreadTd,.gTableBody,.gTableBody1,.gTableBottom,.gTableError,.gTableLeft,.gTableRight,.newPollBlock,.newThreadBlock,.postBottom,.postPoll,.postTdInfo,.quoteMessage,.threadAuthTd,.threadIcoTd,.threadLastPostTd,.threadNametd,.threadPostTd,.threadsType,.threadViewTd{padding:10px!important}
     
-
 .items-stat-wrapper{display:flex;justify-content:space-between;align-items:center;padding-bottom:4px;flex-wrap:wrap}
 .items-stat{padding-right:15px}
 .breadcrumbs-wrapper{display:flex;justify-content:space-between;align-items:center;padding-bottom:4px}
-.breadcrumbs{padding-right:15px}
-}
+.breadcrumbs{padding-right:15px}}
+.shrift1 {margin-top: ;margin-left: -200;}
