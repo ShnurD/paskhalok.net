@@ -13,6 +13,8 @@ a,button:focus,input{outline:0}
 a{color:#57aadc;text-decoration:none;-webkit-tap-highlight-color:transparent}
 #header .user-btns a:hover,a:hover{text-decoration:none;color:#067ab5}
 #casing select:not([multiple]):hover{border:1px solid #067ab5}
+.eTitle a:hover{color:#067ab5;text-decoration:none}
+.eTitle a:active,a:active{color:#000;text-decoration:none}
 h1,h2,h3,h4,h5,h6{margin:5px 0;padding:0;font-family:Comfortaa;font-size:21px;font-weight:700}
 h1{font-size:28px}
 h2{font-size:24px}
@@ -117,6 +119,8 @@ main.promo{display:block;width:100%}
 .land-block2 h3,.land-block3 h3{color:#333;font-family:Comfortaa;font-size:32px;font-weight:400;line-height:44px}
 .land-block2 .lf-top p{width:60%;display:inline-block}
 .land-block2 .rg-bottom h4{color:#333;font-family:Comfortaa;font-size:17px;font-weight:700;line-height:32px;margin-top:22px}
+ul.work-list{padding-top:100px;margin:0;-ms-flex-pack:distribute;justify-content:space-around}
+.work-list li{width:30%}
 .owl-two{background-color:#f3e7db;width:100%;overflow:hidden}
 .owl-two.owl-carousel{height:543px}
 .owl-two .item{display:-ms-flexbox;display:flex;-ms-flex-align:center;align-items:center;width:100%;height:543px}
@@ -132,7 +136,12 @@ main.promo{display:block;width:100%}
 .control-button>a:first-child{border-top-left-radius:30px;border-bottom-left-radius:30px}
 .control-button>a:last-child{border-top-right-radius:30px;border-bottom-right-radius:30px;border-right:2px solid #067ab5}
 .control-button>a:active{background-color:#fff;color:#333}
+.land-block5{background-color:#f3e7db}
+.land-block5 .wrapper{padding:61px 20px}
+.land-block5 .flex-wrapper{-ms-flex-pack:center;justify-content:center}
+.land-block5 .flex-wrapper li{display:-ms-flexbox;display:flex;padding:0 40px}
 span.ar-title{font-size:41px;font-weight:400;line-height:71px;padding-right:19px}
+.land-block6{background-color:#f5f5f5}
 .owl-four.owl-carousel{height:auto;padding-top:99px;padding-bottom:165px}
 .owl-four .item{min-height:330px;height:auto;background:#fff url(/.s/t/1812/quote.png) 46px 47px no-repeat;padding:121px 47px 52px;-ms-flex-wrap:wrap;flex-wrap:wrap;border-radius:8px}
 .owl-four .item .mess-com{display:block;width:100%;margin-top:0;color:#333}
@@ -146,6 +155,21 @@ footer.footer{background:#ebebed}
 .quick-links li:not(:last-child),.soc-link li:not(:last-child){
 margin-right:15px}
 .soc-link a{color:#1d2733;font-size:18px;font-weight:400}
+#casing .sidebox .searchForm form input[type=text].queryField{border:1px solid #333;border-radius:30px;width:85%;padding-right:40px;max-width:250px;background-color:#0000;margin:0}
+.searchForm form{position:relative;display:-ms-flexbox;display:flex}
+.sidebox .searchForm form .schBtn{position:absolute;right:22px}
+.sidebox .searchForm form .schQuery{width:100%}
+#casing #sidebar input[type=submit].searchSbmFl{min-width:unset;width:45px;border:none;text-indent:150%;background:#0000;font-size:0}
+.schBtn:after{content:"search";font-family:Material Icons;position:absolute;height:100%;width:100%;color:#000;left:0;top:calc(50% - 17px);font-size:24px;line-height:35px;cursor:pointer;pointer-events:none;text-rendering:optimizeLegibility;-webkit-font-feature-settings:"liga";font-feature-settings:"liga"}
+.schBtn:hover:after{color:#067ab5}
+.eVariant input,.eVariant label{vertical-align:middle}
+form#addEntForm #isontop~span.customCheckbox{display:inline-block}
+#addEntForm input[type=hidden]+br,#allEntries .eTitle:after,#catmenu ul:not(.overflow) ul,#shop-basket ul li a:before,.eBlock+br,.ed-sep,.module_search .eTitle:after,.module_stuff .eTitle+hr,.module_tests .eTitle:after,.nav-head,.slide,.ucf-option .customCheckbox,a.mcBBcodesBtn img,a.mcManageBtn img,a.mcReloadBtn img,a.mcSmilesBtn img,div.i_person,div.i_search,table.uTable+hr{display:none}
+#catmenu li.uWithSubmenu,.module_search form table td:first-child,.sidebox li.parent-li,.sidebox li.uWithSubmenu,.slide{position:relative}
+.customCheckbox:hover{border-color:#067ab5}
+input[type=checkbox]:checked+span.customCheckbox{background-color:#0188cc;border-color:#0188cc}
+input[type=checkbox]:disabled+span.customCheckbox{opacity:.6;cursor:default}
+input[type=checkbox]:disabled+span.customCheckbox:hover{border-color:#aaa}
 .clr{clear:both}
 .uf-with-tooltip:hover .uf-tooltip,.uf-wtt-hovered .uf-tooltip{z-index:3}
 .material-icons,b.shop-itempage-price *{vertical-align:middle}
@@ -169,7 +193,7 @@ ul.uMenuRoot i.material-icons{width:24px}
 ul.uMenuRoot{display:-ms-inline-flexbox;display:inline-flex;padding:0;width:100%;-ms-flex-pack:end;justify-content:flex-end;-ms-flex-align:center;align-items:center;-ms-flex-wrap:wrap;flex-wrap:wrap;margin:0;position:relative;visibility:hidden}
 ul.uMenuRoot li{text-align:center}
 ul.uMenuRoot li a{padding:0 2px;-ms-flex-pack:center;justify-content:center;display:-ms-inline-flexbox;display:inline-flex;-ms-flex-align:center;align-items:center}
-ul.uMenuRoot>li>a{min-height:30px}
+ul.uMenuRoot>li>a{min-height:72px}
 .uMenuRoot>li>a:hover,div[id^=uNMenuDiv] a.uMenuItemA,li.navItemMore:hover{color:#57aadc;font-weight:400;line-height:24px;cursor:pointer}
 .nav-menu-toggler{min-height:72px;display:-ms-flexbox;display:flex;padding-right:0}
 .nav-menu-toggler,.uWithSubmenu>a:after{-ms-flex-pack:center;justify-content:center;-ms-flex-align:center;align-items:center}
