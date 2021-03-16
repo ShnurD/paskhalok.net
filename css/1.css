@@ -13,8 +13,6 @@ a,button:focus,input{outline:0}
 a{color:#57aadc;text-decoration:none;-webkit-tap-highlight-color:transparent}
 #header .user-btns a:hover,a:hover{text-decoration:none;color:#067ab5}
 #casing select:not([multiple]):hover{border:1px solid #067ab5}
-.eTitle a:hover{color:#067ab5;text-decoration:none}
-.eTitle a:active,a:active{color:#000;text-decoration:none}
 h1,h2,h3,h4,h5,h6{margin:5px 0;padding:0;font-family:Comfortaa;font-size:21px;font-weight:700}
 h1{font-size:28px}
 h2{font-size:24px}
@@ -156,15 +154,11 @@ footer.footer{background:#ebebed}
 margin-right:15px}
 .soc-link a{color:#1d2733;font-size:18px;font-weight:400}
 #casing .sidebox .searchForm form input[type=text].queryField{border:1px solid #333;border-radius:30px;width:85%;padding-right:40px;max-width:250px;background-color:#0000;margin:0}
-.searchForm form{position:relative;display:-ms-flexbox;display:flex}
-.sidebox .searchForm form .schBtn{position:absolute;right:22px}
-.sidebox .searchForm form .schQuery{width:100%}
 #casing #sidebar input[type=submit].searchSbmFl{min-width:unset;width:45px;border:none;text-indent:150%;background:#0000;font-size:0}
 .schBtn:after{content:"search";font-family:Material Icons;position:absolute;height:100%;width:100%;color:#000;left:0;top:calc(50% - 17px);font-size:24px;line-height:35px;cursor:pointer;pointer-events:none;text-rendering:optimizeLegibility;-webkit-font-feature-settings:"liga";font-feature-settings:"liga"}
 .schBtn:hover:after{color:#067ab5}
 .eVariant input,.eVariant label{vertical-align:middle}
 form#addEntForm #isontop~span.customCheckbox{display:inline-block}
-#addEntForm input[type=hidden]+br,#allEntries .eTitle:after,#catmenu ul:not(.overflow) ul,#shop-basket ul li a:before,.eBlock+br,.ed-sep,.module_search .eTitle:after,.module_stuff .eTitle+hr,.module_tests .eTitle:after,.nav-head,.slide,.ucf-option .customCheckbox,a.mcBBcodesBtn img,a.mcManageBtn img,a.mcReloadBtn img,a.mcSmilesBtn img,div.i_person,div.i_search,table.uTable+hr{display:none}
 #catmenu li.uWithSubmenu,.module_search form table td:first-child,.sidebox li.parent-li,.sidebox li.uWithSubmenu,.slide{position:relative}
 .customCheckbox:hover{border-color:#067ab5}
 input[type=checkbox]:checked+span.customCheckbox{background-color:#0188cc;border-color:#0188cc}
