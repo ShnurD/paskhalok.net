@@ -314,3 +314,4 @@ table.shop_spec td,table.shop_spec td .item-action{display:block;text-align:left
 .breadcrumbs{padding-right:15px}}
 span {font-size: 20px;}
 .rightpng {float: right; margin: 0 0 5px 5px; margin-top: -120;}
+.btn-alert{color:#fff;font-size:16px;line-height:24px;background-color:#0188cc;min-height:42px;display:-ms-inline-flexbox;display:inline-flex;-ms-flex-pack:center;justify-content:center;-ms-flex-align:center;align-items:center;padding:0 34px;border-radius:30px;border:2px solid transparent}
