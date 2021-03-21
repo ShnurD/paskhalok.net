@@ -10,31 +10,31 @@
                                       if (confirm("Не уснул?\nНу тогда на,смотри"))
                                           alert("Неожидал?А вот такие вот у нас стандартные проверочки.")
                                   }else{
-                                        //ссылка на страницу
+                                        document.location.replace("https://shnurd.github.io/paskhalok.net/wolves2.html");
                                             }
                               }else{
                                   alert ("Ну теперь сиди.\nРешай, винда в помощь."); 
-                                        //код с Жаком Фреско
+                                        document.location.replace("https://shnurd.github.io/paskhalok.net/fresko.html");
                                             }
                           }else{
-                                //ссылка на страницу
+                                document.location.replace("https://shnurd.github.io/paskhalok.net/wolves1.html");
                                     }
                       }else{
-                            //ссылка на страницу
+                            document.location.replace("https://shnurd.github.io/paskhalok.net/wolves2.html");
                                 }
                   }else{
-                        //ссылка на страницу
+                        document.location.replace("https://shnurd.github.io/paskhalok.net/wolves1.html");
                             }
                   
                 }else{
-                    //ссылка на страницу
+                    document.location.replace("https://shnurd.github.io/paskhalok.net/wolves2.html");
                         }
           }else{
-                //ссылка на страницу
+                document.location.replace("https://shnurd.github.io/paskhalok.net/wolves1.html");
                     }
       }else{
-            //ссылка на страницу
+            document.location.replace("https://shnurd.github.io/paskhalok.net/wolves2.html");
                 }
   }else{
-      //ссылка на страницу 
+      document.location.replace("https://shnurd.github.io/paskhalok.net/wolves1.html"); 
         }
